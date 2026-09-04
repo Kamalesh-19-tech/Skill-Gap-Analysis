@@ -1,0 +1,207 @@
+{
+   "tracks": {
+    "frontend": {
+      "name": "Frontend Development",
+      "modules": [
+        {
+          "id": "html-css-basics",
+          "title": "HTML & CSS Fundamentals",
+          "description": "Master the building blocks of web development",
+          "estimatedTime": "4 hours",
+          "difficulty": "beginner",
+          "prerequisites": [],
+          "skills": ["HTML", "CSS"],
+          "content": {
+            "videoUrl": "https://www.youtube.com/embed/qz0aGYrrlhU",
+            "topics": [
+              "HTML document structure",
+              "Semantic HTML elements",
+              "CSS selectors and properties",
+              "Flexbox and Grid layouts",
+              "Responsive design principles"
+            ]
+          },
+          "exercises": [
+            {
+              "id": "html-basics-1",
+              "title": "Create a semantic HTML structure",
+              "type": "coding",
+              "description": "Build a webpage using proper semantic HTML elements",
+              "points": 50
+            },
+            {
+              "id": "css-styling-1",
+              "title": "Style with CSS",
+              "type": "coding",
+              "description": "Apply CSS styles to create an attractive layout",
+              "points": 50
+            }
+          ],
+          "resources": [
+            {
+              "title": "MDN HTML Documentation",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+              "type": "documentation"
+            },
+            {
+              "title": "CSS-Tricks Flexbox Guide",
+              "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+              "type": "tutorial"
+            }
+          ]
+        },
+        {
+          "id": "javascript-essentials",
+          "title": "JavaScript Fundamentals",
+          "description": "Learn modern JavaScript programming concepts",
+          "estimatedTime": "6 hours",
+          "difficulty": "beginner",
+          "prerequisites": ["html-css-basics"],
+          "skills": ["JavaScript", "ES6+"],
+          "content": {
+            "videoUrl": "https://www.youtube.com/embed/PkZNo7MFNFg",
+            "topics": [
+              "Variables and data types",
+              "Functions and arrow functions",
+              "Objects and arrays",
+              "DOM manipulation",
+              "Async/await and Promises"
+            ]
+          },
+          "exercises": [
+            {
+              "id": "js-variables-1",
+              "title": "Variable declarations and scope",
+              "type": "quiz",
+              "description": "Test your understanding of JavaScript variable scoping",
+              "points": 40
+            },
+            {
+              "id": "js-functions-1",
+              "title": "Function implementation",
+              "type": "coding",
+              "description": "Write functions to solve common programming problems",
+              "points": 60
+            }
+          ],
+          "resources": [
+            {
+              "title": "JavaScript.info",
+              "url": "https://javascript.info/",
+              "type": "tutorial"
+            },
+            {
+              "title": "MDN JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+              "type": "documentation"
+            }
+          ]
+        }
+      ]
+    },
+    "backend": {
+      "name": "Backend Development",
+      "modules": [
+        {
+          "id": "nodejs-fundamentals",
+          "title": "Node.js Basics",
+          "description": "Server-side JavaScript development",
+          "estimatedTime": "5 hours",
+          "difficulty": "intermediate",
+          "prerequisites": ["javascript-essentials"],
+          "skills": ["Node.js", "Server Development"],
+          "content": {"videoUrl": "https://www.youtube.com/embed/fBNz5xF-Kx4",
+            "topics": [
+              "Node.js runtime and event loop",
+              "File system operations",
+              "HTTP server creation",
+              "NPM package management",
+              "Environment variables"
+            ]
+          },
+          "exercises": [
+            {
+              "id": "nodejs-server-1",
+              "title": "Create HTTP server",
+              "type": "coding",
+              "description": "Build a basic HTTP server with routing",
+              "points": 70
+            },
+            {
+              "id": "nodejs-fs-1",
+              "title": "File operations",
+              "type": "coding",
+              "description": "Implement file read/write operations",
+              "points": 50
+            }
+          ],
+          "resources": [
+            {
+              "title": "Node.js Official Documentation",
+              "url": "https://nodejs.org/en/docs/",
+              "type": "documentation"
+            },
+            {
+              "title": "Node.js Best Practices",
+              "url": "https://github.com/goldbergyoni/nodebestpractices",
+              "type": "guide"
+            }
+          ]
+        }
+      ]
+    },
+    "fullstack": {
+      "name": "Full Stack Development",
+      "modules": [
+        {
+          "id": "fullstack-project",
+          "title": "Complete Web Application",
+          "description": "Build an end-to-end web application",
+          "estimatedTime": "12 hours",
+          "difficulty": "advanced",
+          "prerequisites": ["html-css-basics", "javascript-essentials", "nodejs-fundamentals"],
+          "skills": ["Full Stack", "Project Management"],
+          "content": {
+            "videoUrl": "https://www.youtube.com/embed/7CqJlxBYj-M",
+            "topics": [
+              "Application architecture",
+              "Frontend-backend integration",
+              "Database design and integration",
+              "Authentication and authorization",
+              "Deployment strategies"
+            ]
+          },
+          "exercises": [
+            {
+              "id": "fullstack-planning",
+              "title": "Project planning and architecture",
+              "type": "design",
+              "description": "Create a comprehensive project plan and architecture diagram",
+              "points": 80
+            },
+            {
+              "id": "fullstack-implementation",
+              "title": "Full application development",
+              "type": "project",
+              "description": "Implement the complete web application",
+              "points": 200
+            }
+          ],
+          "resources": [
+            {
+              "title": "Full Stack Open Course",
+              "url": "https://fullstackopen.com/en/",
+              "type": "course"
+            },
+            {
+              "title": "The Odin Project",
+              "url": "https://www.theodinproject.com/",
+              "type": "curriculum"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
+ 
